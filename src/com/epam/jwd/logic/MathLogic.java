@@ -15,7 +15,7 @@ public class MathLogic {
     public double[] powRealNumbers(double a, double b, double c) {
         double[] numbers = {a, b, c};
         for (int i = 0; i < 3; i++) {
-            numbers[i] = (numbers[i] > 0) ? Math.pow(numbers[i], 2) : Math.pow(numbers[i], 4);
+            numbers[i] = (numbers[i] > 0) ? numbers[i] * numbers[i] : Math.pow(numbers[i], 4);
         }
         return numbers;
     }
