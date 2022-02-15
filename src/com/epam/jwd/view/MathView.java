@@ -12,6 +12,6 @@ public class MathView {
     }
 
     public void printDoubleArray(double[] arr) {
-        System.out.println(Arrays.toString(arr));
+        System.out.println("Resulting array is " + Arrays.toString(arr));
     }
 }

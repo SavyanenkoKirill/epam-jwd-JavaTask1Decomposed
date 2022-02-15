@@ -29,7 +29,7 @@ public class MathInput {
         double num;
         while (!sc.hasNextDouble()) {
             sc.next();
-            System.out.println("Invalid input. Enter positive double.");
+            System.out.println("Invalid input. Enter rational number.");
         }
         num = sc.nextDouble();
         return num;
